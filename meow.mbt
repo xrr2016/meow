@@ -6,10 +6,12 @@
 pub fn meow(argv : Array[String]) -> Unit {
   let text = if argv.length() < 2 { "Meow" } else { argv[1] }
   let ascii =
-    $|  \{text}!!!
-    $|   /\{'\\'} /\{'\\'}  ((
-    $| =( ^x^ )= ))
-    $| ---m-m----
+    $|  _______
+    $| < \{text} >
+    $|  -------
+    $|          /\{'\\'} /\{'\\'}  ((
+    $|        =( ^x^ )= ))
+    $|       ---m---m---
 
   println(ascii)
 }
