@@ -1,0 +1,7 @@
+import {
+  "xrr2016/meow" @lib,
+}
+
+options(
+  "is-main": true,
+)
