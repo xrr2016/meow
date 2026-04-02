@@ -3,5 +3,5 @@
 /// Keep main focused; move logic into the library package.
 /// Run with `moon run cmd/main` from the project root.
 fn main {
-  @lib.meow()
+  @lib.meow(@env.args())
 }

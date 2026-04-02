@@ -3,12 +3,13 @@
 // Keep blocks small and focused for easy refactors.
 
 ///|
-pub fn meow() -> Unit {
+pub fn meow(argv : Array[String]) -> Unit {
+  let text = if argv.length() < 2 { "Meow" } else { argv[1] }
   let ascii =
-    #|  Meow!
-    #|   /\ /\  ((
-    #| =( ^x^ )= ))
-    #| ---m-m----
+    $|  \{text}!!!
+    $|   /\{'\\'} /\{'\\'}  ((
+    $| =( ^x^ )= ))
+    $| ---m-m----
 
   println(ascii)
 }
