@@ -7,5 +7,5 @@
   "keywords": ["meow"],
   "description": "A meow library",
   "homepage": "https://github.com/xrr2016/meow",
-  // "preferred-target": "native"
+  "preferred-target": "native"
 }
