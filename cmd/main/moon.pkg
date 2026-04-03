@@ -1,8 +1,0 @@
-import {
-  "xrr2016/meow" @lib,
-   "moonbitlang/core/env",
-}
-
-options(
-  "is-main": true,
-)
