@@ -1,6 +1,5 @@
 ///|
-pub fn meow(argv : Array[String]) -> Unit {
-  let text = if argv.length() < 2 { "Meow" } else { argv[1] }
+pub fn meow(text : String) -> Unit {
   let ascii =
     $|  _______
     $| < \{text} >
@@ -14,5 +13,6 @@ pub fn meow(argv : Array[String]) -> Unit {
 
 ///|
 fn main {
-  meow(@env.args())
+  let text = if @env.args().length() < 2 { "Meow" } else { @env.args()[1] }
+  meow(text)
 }
