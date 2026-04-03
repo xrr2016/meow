@@ -17,5 +17,5 @@ meow [text]
 
 moon usage
 ```
-@meow.meow("text")
+@meow.say("text")
 ```
