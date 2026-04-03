@@ -2,7 +2,7 @@
 package "xrr2016/meow/src"
 
 // Values
-pub fn meow(String) -> Unit
+pub fn say(String) -> Unit
 
 // Errors
 
