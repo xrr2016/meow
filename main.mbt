@@ -5,5 +5,5 @@ fn main {
     println("Please provide a me text")
   }
 
-  @meow.say(@env.args()[1])
+  @lib.say(@env.args()[1])
 }

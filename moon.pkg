@@ -1,5 +1,5 @@
 import {
-  "xrr2016/meow/meow" @meow,
+  "xrr2016/meow/lib" @lib,
   "moonbitlang/core/env" @env,
 }
 

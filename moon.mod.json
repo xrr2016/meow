@@ -7,7 +7,6 @@
   "keywords": [
     "meow"
   ],
-  "source": "src",
   "preferred-target": "native",
   "repository": "https://github.com/xrr2016/meow"
 }
