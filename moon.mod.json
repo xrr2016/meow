@@ -1,10 +1,11 @@
 {
-  "name": "xrr2016/meow",
   "version": "0.8.0",
-  "readme": "README.mbt.md",
+  "name": "xrr2016/meow",
+  "description": "A meow library",
+  "readme": "README.md",
   "license": "Apache-2.0",
   "keywords": ["meow"],
+  "source": "src",
   "preferred-target": "native",
-  "description": "A meow library",
   "repository": "https://github.com/xrr2016/meow"
 }
