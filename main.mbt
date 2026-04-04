@@ -1,9 +1,7 @@
 ///|
 /// Terminal meow
 fn main {
-  guard @env.args().length() >= 2 else {
-    println("Please provide a me text")
-  }
+  guard @env.args().length() >= 2 else { println("Please provide a me text") }
 
-  @lib.say(@env.args()[1])
+  @lib.success(@env.args()[1])
 }
