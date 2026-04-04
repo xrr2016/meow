@@ -2,7 +2,15 @@
 package "xrr2016/meow/meow"
 
 // Values
+pub fn error(String) -> Unit
+
+pub fn info(String) -> Unit
+
 pub fn say(String) -> Unit
+
+pub fn success(String) -> Unit
+
+pub fn warn(String) -> Unit
 
 // Errors
 
