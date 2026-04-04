@@ -42,7 +42,7 @@ pub fn say(text : String, status? : Status = Status::Normal) -> Unit {
 
   let ascii =
     $|  \{lines.join("")}
-    $| < \{color(text, status=status)} >
+    $| < \{bold(color(text, status=status))} >
     $|  \{lines2.join("")}
     $|         /\{'\\'} /\{'\\'}  ((
     $|       =( ^x^ )= ))

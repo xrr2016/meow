@@ -6,7 +6,7 @@ pub fn error(String) -> Unit
 
 pub fn info(String) -> Unit
 
-pub fn say(String) -> Unit
+pub fn say(String, status? : Status) -> Unit
 
 pub fn success(String) -> Unit
 
@@ -15,6 +15,7 @@ pub fn warn(String) -> Unit
 // Errors
 
 // Types and methods
+type Status
 
 // Type aliases
 
