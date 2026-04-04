@@ -1,21 +1,33 @@
 # meow
 
-## Description
+## description
 A simple meow program
 
-## Install
-
+### cli usage
 ```
 moon install meow
-```
-
-## Usage
-cli usage
-```
 meow [text]
 ```
 
-moon usage
+### library usage
+
+add meow package
+
+```
+moon add xrr2016/meow
+```
+
+import package to moon.pkg
+```
+import {
+  "xrr2016/meow/lib" @meow,
+}
+```
+
 ```
 @meow.say("text")
+@meow.info("text")
+@meow.warn("text")
+@meow.error("text")
+@meow.success("text")
 ```
